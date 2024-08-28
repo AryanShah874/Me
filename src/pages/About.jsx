@@ -43,8 +43,8 @@ const About = () => {
             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About me</h2>
 
             <p className='font-medium'>
-              Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-              and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
+              Hi, I'm Aryan Shah, a web developer with a passion for creating beautiful, functional, 
+              and user-centered digital experiences. With 2 years of experience in the field. I am always looking for 
               new and innovative ways to bring my clients' visions to life.
             </p>
             <p className='font-medium mt-4'>
