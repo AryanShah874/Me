@@ -30,7 +30,7 @@ const Navbar = () => {
       <nav className='flex items-center justify-center flex-wrap'>
         <motion.a whileHover={{y: -4}} href="https://github.com/AryanShah874" target='_blank' className='w-6 mr-3'><GithubIcon /></motion.a>
         <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/aryan-shah-10b52b252' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
-        <motion.a whileHover={{y: -4}} href="https://www.twitter.com" target='_blank' className='w-6 ml-3'><TwitterIcon /></motion.a>
+        <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 ml-3'><TwitterIcon /></motion.a>
       </nav>
 
       <div className='absolute left-[50%] translate-x-[-50%]'>

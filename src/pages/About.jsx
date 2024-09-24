@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import AnimatedText from '../components/AnimatedText'
 import profile from '../assets/images/profile2.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
-import Skills from './Skills';
+import Skills from '../components/Skills';
+import Experience from '../components/Experience';
+import { Helmet } from 'react-helmet';
 
 const AnimateNumber = ({ number }) => {
   const ref=useRef(null);
@@ -34,9 +36,14 @@ const AnimateNumber = ({ number }) => {
 
 const About = () => {
   return (
+    <>
+    <Helmet>
+      <title>Aryan Shah | About</title>
+      <meta name='description' content='any description' />
+    </Helmet>
     <main className='flex flex-col items-center justify-center w-full'>
       <div className='w-full h-full inline-block z-0 bg-light p-32 pt-0'>
-        <AnimatedText text='Passion Fuels Purpose!' className='mb-14'/>
+        <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14'/>
 
         <div className='w-full grid grid-cols-8 gap-16'>
           <div className='col-span-3 flex flex-col items-start justify-start'>
@@ -65,7 +72,7 @@ const About = () => {
           <div className='col-span-2 flex flex-col justify-around items-end'>
             <div className='flex flex-col items-end justify-center'>
               <span className='inline-block text-7xl font-bold'>
-                <AnimateNumber number={50} />+
+                <AnimateNumber number={15} />+
               </span>
               <h2 className='text-xl font-medium capitalize text-dark/75'>Projects completed</h2>
             </div>
@@ -80,8 +87,11 @@ const About = () => {
         </div>
 
         <Skills />
+
+        <Experience />
       </div>
     </main>
+    </>
   )
 }
 

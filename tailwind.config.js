@@ -17,6 +17,8 @@ export default {
       },
       backgroundImage: {
         circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 80px)',  
+        circularDark: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #1b1b1b 5px, #1b1b1b 80px)',
+        projectBG: 'url(../src/assets/images/productBg.png)',
       }
     },
   },
