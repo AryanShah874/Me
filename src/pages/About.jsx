@@ -4,7 +4,7 @@ import profile from '../assets/images/profile2.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const AnimateNumber = ({ number }) => {
   const ref=useRef(null);
@@ -42,12 +42,12 @@ const About = () => {
       <meta name='description' content='any description' />
     </Helmet>
     <main className='flex flex-col items-center justify-center w-full'>
-      <div className='w-full h-full inline-block z-0 bg-light p-32 pt-0'>
+      <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0'>
         <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14'/>
 
         <div className='w-full grid grid-cols-8 gap-16'>
           <div className='col-span-3 flex flex-col items-start justify-start'>
-            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About me</h2>
+            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About me</h2>
 
             <p className='font-medium'>
               Hi, I'm Aryan Shah, a web developer with a passion for creating beautiful, functional, 
@@ -65,7 +65,7 @@ const About = () => {
             </p> */}
           </div>
 
-          <div className='bg-light col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark p-8'>
+          <div className='bg-light dark:bg-dark col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
             <img draggable={false} src={profile} alt="profile" className='w-full h-auto' />
           </div>
 
@@ -74,13 +74,13 @@ const About = () => {
               <span className='inline-block text-7xl font-bold'>
                 <AnimateNumber number={15} />+
               </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75'>Projects completed</h2>
+              <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects completed</h2>
             </div>
             <div className='flex flex-col items-end justify-center'>
               <span className='inline-block text-7xl font-bold'>
                 <AnimateNumber number={2}/>+
               </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
+              <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
             </div>
           </div>
 

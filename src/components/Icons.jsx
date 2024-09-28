@@ -154,10 +154,10 @@ export const MoonIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const CircularText = ({ className, ...rest }) => (
+export const CircularText = ({ className,...rest }) => (
   <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000" className={`${className}`} preserveAspectRatio="xMidYMid meet">
     <metadata>Created by potrace 1.10, written by Peter Selinger 2001-2011</metadata>
-    <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+    <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" stroke="none">
       <path d="M1445 2395 c-29 -28 -32 -61 -9 -93 13 -19 23 -23 62 -20 28 2 47 8 50 17 4 11 -3 13 -29 9 -41 -6 -59 -1 -59 18 0 10 14 14 54 14 52 0 53 1 48 25 -10 55 -76 72 -117 30z m75 -20 c7 -8 11 -15 9 -16 -48 -8 -69 -7 -69 4 0 30 39 37 60 12z" />
       <path d="M1599 2398 c-6 -70 -10 -105 -14 -115 -2 -8 4 -13 14 -13 15 0 21 10 26 39 7 41 27 67 44 57 5 -3 12 1 15 10 9 25 8 27 -19 22 -14 -3 -28 -1 -31 3 -8 14 -34 11 -35 -3z" />
       <path d="M1305 2390 c-3 -5 -20 -10 -37 -10 -25 0 -29 -3 -23 -17 9 -25 26 -104 28 -137 1 -14 5 -26 10 -26 4 0 13 0 21 0 11 0 13 7 6 30 -8 29 -7 30 24 30 19 0 40 8 49 18 23 25 22 85 -1 105 -20 19 -67 23 -77 7z m55 -40 c24 -44 -22 -86 -54 -51 -19 21 -20 43 -4 59 18 18 46 14 58 -8z" />
