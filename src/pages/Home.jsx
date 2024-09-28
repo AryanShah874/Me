@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import profile from '../assets/images/profile.png'
 import AnimatedText from '../components/AnimatedText'
 import ResumePDF from '../assets/Resume-4.pdf'
@@ -18,6 +18,7 @@ const Home = () => {
       <Helmet>
         <title>Aryan Shah</title>
         <meta name='description' content='any description' />
+        <link rel="preload" as='image' href={profile} />
       </Helmet>
       <main className='flex items-center text-dark dark:text-white w-full min-h-screen'>
         <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 pt-0'>

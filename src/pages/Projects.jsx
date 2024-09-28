@@ -13,6 +13,10 @@ const Projects = () => {
       <Helmet>
         <title>Aryan Shah | Projects</title>
         <meta name="description" content="any description" />
+        <link rel="preload" as='image' href={project0} />
+        <link rel="preload" as='image' href={project1} />
+        <link rel="preload" as='image' href={project2} />
+        <link rel="preload" as='image' href={project3} />
       </Helmet>
 
       <main className="flex flex-col items-center justify-center w-full">

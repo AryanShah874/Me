@@ -37,60 +37,61 @@ const AnimateNumber = ({ number }) => {
 const About = () => {
   return (
     <>
-    <Helmet>
-      <title>Aryan Shah | About</title>
-      <meta name='description' content='any description' />
-    </Helmet>
-    <main className='flex flex-col items-center justify-center w-full'>
-      <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0'>
-        <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14'/>
+      <Helmet>
+        <title>Aryan Shah | About</title>
+        <meta name='description' content='any description' />
+        <link rel="preload" as='image' href={profile} />
+      </Helmet>
+      <main className='flex flex-col items-center justify-center w-full'>
+        <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0'>
+          <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14'/>
 
-        <div className='w-full grid grid-cols-8 gap-16'>
-          <div className='col-span-3 flex flex-col items-start justify-start'>
-            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About me</h2>
+          <div className='w-full grid grid-cols-8 gap-16'>
+            <div className='col-span-3 flex flex-col items-start justify-start'>
+              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About me</h2>
 
-            <p className='font-medium'>
-              Hi, I'm Aryan Shah, a web developer with a passion for creating beautiful, functional, 
-              and user-centered digital experiences. With 2 years of experience in the field. I am always looking for 
-              new and innovative ways to bring my clients' visions to life.
-            </p>
-            <p className='font-medium mt-4'>
-              I believe that design is about more than just making things look pretty – it's about solving problems and 
-              creating intuitive, enjoyable experiences for users. 
-            </p>
-            {/* <p className='font-medium'>
-              I am proficient in a variety of programming languages and tools, including HTML, CSS, JavaScript, React, 
-              Node.js, and Adobe Creative Suite. I am also well-versed in user experience design principles and best 
-              practices.
-            </p> */}
-          </div>
-
-          <div className='bg-light dark:bg-dark col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
-            <img draggable={false} src={profile} alt="profile" className='w-full h-auto' />
-          </div>
-
-          <div className='col-span-2 flex flex-col justify-around items-end'>
-            <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-7xl font-bold'>
-                <AnimateNumber number={15} />+
-              </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects completed</h2>
+              <p className='font-medium'>
+                Hi, I'm Aryan Shah, a web developer with a passion for creating beautiful, functional, 
+                and user-centered digital experiences. With 2 years of experience in the field. I am always looking for 
+                new and innovative ways to bring my clients' visions to life.
+              </p>
+              <p className='font-medium mt-4'>
+                I believe that design is about more than just making things look pretty – it's about solving problems and 
+                creating intuitive, enjoyable experiences for users. 
+              </p>
+              {/* <p className='font-medium'>
+                I am proficient in a variety of programming languages and tools, including HTML, CSS, JavaScript, React, 
+                Node.js, and Adobe Creative Suite. I am also well-versed in user experience design principles and best 
+                practices.
+              </p> */}
             </div>
-            <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-7xl font-bold'>
-                <AnimateNumber number={2}/>+
-              </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
+
+            <div className='bg-light dark:bg-dark col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
+              <img draggable={false} src={profile} alt="profile" className='w-full h-auto' />
             </div>
+
+            <div className='col-span-2 flex flex-col justify-around items-end'>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>
+                  <AnimateNumber number={15} />+
+                </span>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects completed</h2>
+              </div>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>
+                  <AnimateNumber number={2}/>+
+                </span>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
+              </div>
+            </div>
+
           </div>
 
+          <Skills />
+
+          <Experience />
         </div>
-
-        <Skills />
-
-        <Experience />
-      </div>
-    </main>
+      </main>
     </>
   )
 }
