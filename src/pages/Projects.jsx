@@ -8,6 +8,7 @@ import project3 from "../assets/images/project3.png";
 import project4 from "../assets/images/project4.png";
 import { GithubIcon } from "../components/Icons";
 import { motion } from "framer-motion";
+import TransitionEffect from "../components/TransitionEffect";
 
 const Projects = () => {
   return (
@@ -21,6 +22,8 @@ const Projects = () => {
         <link rel="preload" as='image' href={project3} />
         <link rel="preload" as='image 'href={project4} />
       </Helmet>
+
+      <TransitionEffect />
 
       <main className="flex flex-col items-center justify-center w-full">
         <div className="w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 pt-0">

@@ -6,6 +6,7 @@ import {Cube, LinkArrow} from '../components/Icons'
 import HireMe from '../components/HireMe'
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
+import TransitionEffect from '../components/TransitionEffect'
 
 const Home = () => {
   const image={
@@ -20,6 +21,7 @@ const Home = () => {
         <meta name='description' content='any description' />
         <link rel="preload" as='image' href={profile} />
       </Helmet>
+      <TransitionEffect />
       <main className='flex items-center text-dark dark:text-white w-full min-h-screen'>
         <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 pt-0 md:pt-16 sm:pt-8'>
           

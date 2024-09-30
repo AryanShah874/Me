@@ -5,6 +5,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import { Helmet } from 'react-helmet-async';
+import TransitionEffect from '../components/TransitionEffect';
 
 const AnimateNumber = ({ number }) => {
   const ref=useRef(null);
@@ -42,6 +43,9 @@ const About = () => {
         <meta name='description' content='any description' />
         <link rel="preload" as='image' href={profile} />
       </Helmet>
+
+      <TransitionEffect />
+
       <main className='flex flex-col items-center justify-center w-full'>
         <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0 xl:p-24 lg:p-16 md:p-12 sm:p-8'>
           <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
