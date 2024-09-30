@@ -6,7 +6,7 @@ const Skill=({name, x, y})=>{
   // const isInView=useInView(ref, {once: true});
 
   return(
-    <motion.div ref={ref} whileHover={{scale: 1.1}} initial={{x: 0, y: 0}} whileInView={{x:x, y:y, transition: {duration: 1.5}}} viewport={{once: true}} className='flex justify-center items-center bg-dark text-light dark:bg-light dark:text-dark py-3 px-6 rounded-full absolute cursor-pointer'>
+    <motion.div ref={ref} whileHover={{scale: 1.1}} initial={{x: 0, y: 0}} whileInView={{x:x, y:y, transition: {duration: 1.5}}} viewport={{once: true}} className='flex justify-center items-center bg-dark text-light dark:bg-light dark:text-dark py-3 px-6 lg:py-2 lg:px-4 md:py-1.5 md:px-3 md:text-sm xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold rounded-full absolute cursor-pointer'>
       {name}
     </motion.div>
   )
@@ -15,9 +15,9 @@ const Skill=({name, x, y})=>{
 const Skills = () => {
   return (
     <>
-      <h2 className='font-bold text-8xl mt-32 w-full text-center'>Skills</h2>
-      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark'>
-        <motion.div whileHover={{scale: 1.05}} className='flex justify-center items-center bg-dark text-light dark:bg-light dark:text-dark p-6 rounded-full cursor-pointer'>
+      <h2 className='font-bold text-8xl mt-32 w-full text-center md:text-6xl'>Skills</h2>
+      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]'>
+        <motion.div whileHover={{scale: 1.05}} className='flex justify-center items-center bg-dark text-light dark:bg-light dark:text-dark p-6 lg:p-5 md:p-3 xs:p-2 xs:text-sm rounded-full cursor-pointer'>
           Web
         </motion.div>
 

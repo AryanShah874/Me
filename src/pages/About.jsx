@@ -43,11 +43,12 @@ const About = () => {
         <link rel="preload" as='image' href={profile} />
       </Helmet>
       <main className='flex flex-col items-center justify-center w-full'>
-        <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0'>
-          <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14'/>
+        <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark dark:text-light p-32 pt-0 xl:p-24 lg:p-16 md:p-12 sm:p-8'>
+          <AnimatedText text='Trust Me, I am a "Programmer"' className='mb-14 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
 
-          <div className='w-full grid grid-cols-8 gap-16'>
-            <div className='col-span-3 flex flex-col items-start justify-start'>
+          <div className='w-full grid grid-cols-8 gap-16 sm:gap-8'>
+
+            <div className='col-span-3 xl:col-span-4 md:order-2 md:col-span-8 flex flex-col items-start justify-start'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About me</h2>
 
               <p className='font-medium'>
@@ -66,22 +67,22 @@ const About = () => {
               </p> */}
             </div>
 
-            <div className='bg-light dark:bg-dark col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
+            <div className='bg-light dark:bg-dark col-span-3 xl:col-span-4 md:order-1 md:col-span-8 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
               <img draggable={false} src={profile} alt="profile" className='w-full h-auto' />
             </div>
 
-            <div className='col-span-2 flex flex-col justify-around items-end'>
-              <div className='flex flex-col items-end justify-center'>
-                <span className='inline-block text-7xl font-bold'>
+            <div className='col-span-2 xl:col-span-8 md:order-3 flex flex-col justify-around items-end xl:flex-row xl:items-center'>
+              <div className='flex flex-col items-end justify-center xl:items-center'>
+                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                   <AnimateNumber number={15} />+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects completed</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects completed</h2>
               </div>
-              <div className='flex flex-col items-end justify-center'>
-                <span className='inline-block text-7xl font-bold'>
+              <div className='flex flex-col items-end justify-center xl:items-center'>
+                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                   <AnimateNumber number={2}/>+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>years of experience</h2>
               </div>
             </div>
 

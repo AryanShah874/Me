@@ -155,7 +155,7 @@ export const MoonIcon = ({ className, ...rest }) => (
 );
 
 export const CircularText = ({ className,...rest }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000" className={`${className}`} preserveAspectRatio="xMidYMid meet">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 300.000000 300.000000" className={`w-full h-auto ${className}`} preserveAspectRatio="xMidYMid meet">
     <metadata>Created by potrace 1.10, written by Peter Selinger 2001-2011</metadata>
     <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" stroke="none">
       <path d="M1445 2395 c-29 -28 -32 -61 -9 -93 13 -19 23 -23 62 -20 28 2 47 8 50 17 4 11 -3 13 -29 9 -41 -6 -59 -1 -59 18 0 10 14 14 54 14 52 0 53 1 48 25 -10 55 -76 72 -117 30z m75 -20 c7 -8 11 -15 9 -16 -48 -8 -69 -7 -69 4 0 30 39 37 60 12z" />
