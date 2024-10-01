@@ -26,7 +26,7 @@ const Projects = () => {
       <TransitionEffect />
 
       <main className="flex flex-col items-center justify-center w-full">
-        <div className="w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 pt-0">
+        <div className="w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 pt-0 md:px-10">
           <AnimatedText text="Where Ideas meet execution" className="mb-10 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">

@@ -11,7 +11,7 @@ const AnimateNumber = ({ number }) => {
   const ref=useRef(null);
 
   const motionValue = useMotionValue(0);  //similar to useState
-  const springValue = useSpring(motionValue, { duration: 3000 });  //a motion value that animates to the provided value
+  const springValue = useSpring(motionValue, { duration: 8000 });  //a motion value that animates to the provided value
   const isInView=useInView(ref, {once: true}); //a hook that returns true if the element is in view
 
   useEffect(() => {
