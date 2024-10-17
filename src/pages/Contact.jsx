@@ -3,10 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import TransitionEffect from '../components/TransitionEffect'
 import AnimatedText from '../components/AnimatedText';
 import emailjs from '@emailjs/browser';
-import {Canvas} from '@react-three/fiber'
-import Fox from '../models/Fox'
-import Stegosaurous from '../models/Stegosaurous';
-import Sonic from '../models/Sonic';
+import {Canvas} from '@react-three/fiber';
 import Pikachu from '../models/Pikachu';
 
 const Contact = () => {
