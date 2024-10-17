@@ -38,6 +38,10 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+input:focus, textarea:focus{
+  outline: none;
+}
 /*
   7. Avoid text overflows
 */

@@ -7,6 +7,7 @@ import HireMe from '../components/HireMe'
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
 import TransitionEffect from '../components/TransitionEffect'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   const image={
@@ -40,9 +41,9 @@ const Home = () => {
                   <a href={ResumePDF} target='_blank' className='flex items-center bg-dark text-light dark:bg-white dark:text-dark text-lg font-semibold p-2.5 px-6 md:p-2 md:px-4 md:text-base rounded-lg border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light'>
                     Résumé <LinkArrow className='w-6 ml-1'/>
                   </a>   
-                <a href='mailto:aryanwork10@gmail.com' target='_blank' className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base'>
+                <Link to={'/contact'} className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base'>
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>

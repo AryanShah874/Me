@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import AnimatedText from '../components/AnimatedText'
-import profile from '../assets/images/profile2.png'
+import profile from '../assets/images/profile4.jpg'
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
@@ -72,7 +72,7 @@ const About = () => {
             </div>
 
             <div className='bg-light dark:bg-dark col-span-3 xl:col-span-4 md:order-1 md:col-span-8 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light p-8'>
-              <img draggable={false} src={profile} alt="profile" className='w-full h-auto' />
+              <img draggable={false} src={profile} alt="profile" className='w-full h-auto rounded-lg' />
             </div>
 
             <div className='col-span-2 xl:col-span-8 md:order-3 flex flex-col justify-around items-end xl:flex-row xl:items-center'>

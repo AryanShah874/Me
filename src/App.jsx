@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Gallery from './pages/Gallery';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>
