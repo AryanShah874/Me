@@ -15,12 +15,19 @@ const Projects = () => {
     <>
       <Helmet>
         <title>Aryan Shah | Projects</title>
-        <meta name="description" content="any description" />
+        <meta name="description" content="This section displays the projects I did" />
+        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur" />
         <link rel="preload" as='image' href={project0} />
         <link rel="preload" as='image' href={project1} />
         <link rel="preload" as='image' href={project2} />
         <link rel="preload" as='image' href={project3} />
         <link rel="preload" as='image 'href={project4} />
+        <link rel="canonical" href="https://aryanshah.me/projects" />
+
+        <meta property='og:title' content='Aryan Shah | Projects' />
+        <meta property='og:description' content='This section displays the projects Aryan did' />
+        <meta property='og:url' content='https://aryanshah.me/projects' />
+        <meta property='og:image' content={project0} />
       </Helmet>
 
       <TransitionEffect />

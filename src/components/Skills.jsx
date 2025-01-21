@@ -27,7 +27,7 @@ const Skills = () => {
         <Skill name='Tailwind' x='-25vw' y='-16vw'/>
         {/* <Skill name='Chakra UI' x='0' y='-15vw'/> */}
         {/* <Skill name='Styled Components' x='0' y='-25vw'/> */}
-        <Skill name='Framer Motion' x='0' y='-35vw'/> 
+        <Skill name='Framer Motion' x='-20vw' y='18vw'/> 
         {/* <Skill name='ThreeJS' x='0' y='-45vw'/> */}
         <Skill name='ReactJS' x='2vw' y='18vw'/>
         <Skill name='NodeJS' x='-20vw' y='8vw'/>

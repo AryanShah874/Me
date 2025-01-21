@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { Suspense, lazy } from 'react'
 import profile from '../assets/images/profile.png'
+import profile4 from '../assets/images/profile4.jpg'
 import AnimatedText from '../components/AnimatedText'
-import ResumePDF from '../assets/Resume-4.pdf'
+import ResumePDF from '../assets/Resume_offcampus.pdf'
 import {Cube, LinkArrow} from '../components/Icons'
-import HireMe from '../components/HireMe'
+// import HireMe from '../components/HireMe'
+const HireMe = lazy(() => import('../components/HireMe'))
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
 import TransitionEffect from '../components/TransitionEffect'
@@ -19,9 +21,36 @@ const Home = () => {
     <>
       <Helmet>
         <title>Aryan Shah</title>
-        <meta name='description' content='any description' />
-        <link rel="preload" as='image' href={profile} />
+        <meta name='description' content='Welcome to my portfolio where you can find what I do and get connected.' />
+        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur' />
+        <link rel="preload" as='image' href={profile4} alt="Aryan Shah" />
+        <link rel="canonical" href="https://aryanshah.me" />
+
+
+        {/* open graph tags */}
+        <meta property='og:title' content='Aryan Shah | Full Stack Developer' />
+        <meta property='og:description' content='Welcome to my portfolio where you can find what I do and get connected.' />
+        <meta property='og:image' content={profile4} />
+        <meta property='og:url' content='https://aryanshah.me' />
+        <meta property='og:type' content='website' />
+
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Aryan Shah",
+              "url": "https://aryanshah.me/",
+              "sameAs": [
+                "https://www.linkedin.com/in/aryan-shah-10b52b252",
+                "https://github.com/AryanShah874",
+              ],
+              "description": "Aryan Shah is a passionate Full Stack Developer specializing in building and designing websites, web applications, and mobile applications."
+            }
+          `}
+        </script>
       </Helmet>
+
       <TransitionEffect />
       <main className='flex items-center text-dark dark:text-white w-full min-h-screen'>
         <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 pt-0 md:pt-16 sm:pt-8'>
@@ -30,7 +59,7 @@ const Home = () => {
             <div className='w-1/2 md:w-full'>
               <img draggable={false} src={profile} alt="profile" className='w-full h-auto lg:hidden md:inline-block md:w-full' />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+            <section className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText text='From Concept  to Code, Watch Ideas Explode' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:text-6xl md:text-5xl sm:text-3xl' />
 
               <p className='my-4 text-base pb-2 font-medium md:text-sm sm:text-xs'>
@@ -45,12 +74,14 @@ const Home = () => {
                   Contact
                 </Link>
               </div>
-            </div>
+            </section>
           </div>
           
         </div>
 
-        <HireMe />
+        <Suspense fallback={<div>Loading...</div>}>
+          <HireMe />
+        </Suspense>
 
         <motion.div variants={image} initial='initial' animate='animate' className='absolute right-8 top-20'>
           <Cube className={'w-40 h-40 lg:w-35 lg:h-35 md:hidden'}/>
