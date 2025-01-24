@@ -23,14 +23,14 @@ const Home = () => {
         <title>Aryan Shah</title>
         <meta name='description' content='Welcome to my portfolio where you can find what I do and get connected.' />
         <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur' />
-        <link rel="preload" as='image' href={profile4} alt="Aryan Shah" />
+        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
         <link rel="canonical" href="https://aryanshah.me" />
 
 
         {/* open graph tags */}
         <meta property='og:title' content='Aryan Shah | Full Stack Developer' />
         <meta property='og:description' content='Welcome to my portfolio where you can find what I do and get connected.' />
-        <meta property='og:image' content={profile4} />
+        <meta property='og:image' content="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
         <meta property='og:url' content='https://aryanshah.me' />
         <meta property='og:type' content='website' />
 
