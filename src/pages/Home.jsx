@@ -34,21 +34,17 @@ const Home = () => {
         <meta property='og:url' content='https://aryanshah.me' />
         <meta property='og:type' content='website' />
 
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Aryan Shah",
-              "url": "https://aryanshah.me/",
-              "sameAs": [
-                "https://www.linkedin.com/in/aryan-shah-10b52b252",
-                "https://github.com/AryanShah874",
-              ],
-              "description": "Aryan Shah is a passionate Full Stack Developer specializing in building and designing websites, web applications, and mobile applications."
-            }
-          `}
-        </script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Aryan Shah",
+          "url": "https://aryanshah.me/",
+          "sameAs": [
+            "https://www.linkedin.com/in/aryan-shah-10b52b252",
+            "https://github.com/AryanShah874"
+          ],
+          "description": "Aryan Shah is a passionate Full Stack Developer specializing in building and designing websites, web applications, and mobile applications."
+        }` }} />
       </Helmet>
 
       <TransitionEffect />
