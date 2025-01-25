@@ -41,7 +41,7 @@ const About = () => {
       <Helmet>
         <title>Aryan Shah | About</title>
         <meta name='description' content='This is the about section of portfolio that decribes the skills and experiences I have' />
-        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur' />
+        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
         <link rel="canonical" href="https://aryanshah.me/about" />
 

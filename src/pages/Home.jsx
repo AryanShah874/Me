@@ -22,7 +22,7 @@ const Home = () => {
       <Helmet>
         <title>Aryan Shah</title>
         <meta name='description' content='Welcome to my portfolio where you can find what I do and get connected.' />
-        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur' />
+        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
         <link rel="canonical" href="https://aryanshah.me" />
 

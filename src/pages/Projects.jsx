@@ -16,7 +16,7 @@ const Projects = () => {
       <Helmet>
         <title>Aryan Shah | Projects</title>
         <meta name="description" content="This section displays the projects I did" />
-        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur" />
+        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project0-B6KuZh9b.png" />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project1-ThQVOg8s.png" />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project3-EoT8fvl3.png" />

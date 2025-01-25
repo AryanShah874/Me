@@ -8,7 +8,7 @@ const Gallery = () => {
       <Helmet>
         <title>Aryan Shah | Gallery</title>
         <meta name="description" content="This section is under development in which I will showcase my photography skills" />
-        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur" />
+        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
         <link rel="canonical" href="https://aryanshah.me/gallery" />
 
         <meta property="og:title" content="Aryan Shah | Gallery" />
