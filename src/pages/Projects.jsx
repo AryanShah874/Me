@@ -17,17 +17,17 @@ const Projects = () => {
         <title>Aryan Shah | Projects</title>
         <meta name="description" content="This section displays the projects I did" />
         <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project0-B6KuZh9b.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project1-ThQVOg8s.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project3-EoT8fvl3.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project2-DgNPu0kg.png" />
-        <link rel="preload" as='image 'href="https://www.aryanshah.me/assets/project4-DBGne-9t.png" />
+        <link rel="preload" as='image' href="https://aryanshah.me/assets/project0-B6KuZh9b.png" />
+        <link rel="preload" as='image' href="https://aryanshah.me/assets/project1-ThQVOg8s.png" />
+        <link rel="preload" as='image' href="https://aryanshah.me/assets/project3-EoT8fvl3.png" />
+        <link rel="preload" as='image' href="https://aryanshah.me/assets/project2-DgNPu0kg.png" />
+        <link rel="preload" as='image 'href="https://aryanshah.me/assets/project4-DBGne-9t.png" />
         <link rel="canonical" href="https://aryanshah.me/projects" />
 
         <meta property='og:title' content='Aryan Shah | Projects' />
         <meta property='og:description' content='This section displays the projects Aryan did' />
         <meta property='og:url' content='https://aryanshah.me/projects' />
-        <meta property='og:image' content="https://www.aryanshah.me/assets/project0-B6KuZh9b.png" />
+        <meta property='og:image' content="https://aryanshah.me/assets/project0-B6KuZh9b.png" />
       </Helmet>
 
       <TransitionEffect />
