@@ -9,11 +9,11 @@ const Gallery = () => {
         <title>Aryan Shah | Gallery</title>
         <meta name="description" content="This section is under development in which I will showcase my photography skills" />
         <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
-        <link rel="canonical" href="https://aryanshah.me/gallery" />
+        <link rel="canonical" href="https://www.aryanshah.me/gallery" />
 
         <meta property="og:title" content="Aryan Shah | Gallery" />
         <meta property="og:description" content="This section is under development in which I will showcase my photography skills" />
-        <meta property="og:url" content="https://aryanshah.me/gallery" />
+        <meta property="og:url" content="https://www.aryanshah.me/gallery" />
       </Helmet>
       
       <TransitionEffect />

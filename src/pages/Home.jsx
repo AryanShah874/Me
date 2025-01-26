@@ -23,22 +23,22 @@ const Home = () => {
         <title>Aryan Shah</title>
         <meta name='description' content='Welcome to my portfolio where you can find what I do and get connected.' />
         <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
-        <link rel="preload" as='image' href="https://aryanshah.me/assets/profile4-BShXI7yr.jpg" />
-        <link rel="canonical" href="https://aryanshah.me" />
+        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
+        <link rel="canonical" href="https://www.aryanshah.me" />
 
 
         {/* open graph tags */}
         <meta property='og:title' content='Aryan Shah | Full Stack Developer' />
         <meta property='og:description' content='Welcome to my portfolio where you can find what I do and get connected.' />
-        <meta property='og:image' content="https://aryanshah.me/assets/profile4-BShXI7yr.jpg" />
-        <meta property='og:url' content='https://aryanshah.me' />
+        <meta property='og:image' content="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
+        <meta property='og:url' content='https://www.aryanshah.me' />
         <meta property='og:type' content='website' />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Aryan Shah",
-          "url": "https://aryanshah.me/",
+          "url": "https://www.aryanshah.me/",
           "sameAs": [
             "https://www.linkedin.com/in/aryan-shah-10b52b252",
             "https://github.com/AryanShah874"
