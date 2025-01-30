@@ -52,7 +52,7 @@ const Home = () => {
         <div className='w-full h-full inline-block z-0 bg-light dark:bg-dark p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 pt-0 md:pt-16 sm:pt-8'>
           
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/2 md:w-full'>
+            <div className='w-1/2 md:w-full py-8'>
               <img draggable={false} src={profile} alt="profile" className='w-full h-auto lg:hidden md:inline-block md:w-full' />
             </div>
             <section className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
