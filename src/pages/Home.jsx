@@ -21,7 +21,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Aryan Shah</title>
-        <meta name='description' content='Welcome to my portfolio where you can find what I do and get connected.' />
+        <meta name='description' content="Welcome to Aryan's Portfolio, He is a undergraduate pursuing B.Tech in CSE from LNMIIT. He likes to develop projects and travelling."/>
         <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
         <link rel="canonical" href="https://www.aryanshah.me" />
@@ -59,7 +59,7 @@ const Home = () => {
               <AnimatedText text='From Concept  to Code, Watch Ideas Explode' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:text-6xl md:text-5xl sm:text-3xl' />
 
               <p className='my-4 text-base pb-2 font-medium md:text-sm sm:text-xs'>
-                I'm a Aryan, a passionate Full Stack Developer based out of India. I specialize in building and designing websites, web applications, and mobile applications. I am passionate about creating intuitive, dynamic, and responsive user interfaces that provide a seamless user experience.
+                I'm a Aryan, a passionate Full Stack Developer based out of India, currently pursuing B.Tech in CSE from LNMIIT, Jaipur. I specialize in building and designing websites, web applications, and mobile applications. I am passionate about creating intuitive, dynamic, and responsive user interfaces that provide a seamless user experience.
               </p>
 
               <div className='flex items-center justify-center self-start lg:self-center'>

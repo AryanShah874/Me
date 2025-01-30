@@ -34,7 +34,7 @@ const Experience = () => {
               <ListIcon reference={listRef1}/>
               <motion.div initial={{y: 50}} whileInView={{y:0}} transition={{duration: 0.5, type: 'spring'}}>
                 <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>Student&nbsp;<a target='_blank' href="http://sssvjam.org" className='text-red-500 animate-pulse capitalize'>@SSSV</a></h3>
-                <span className='capitalise font-medium text-dark/75 xs:text-sm'>2019-2021 | Jamnagar, India</span>
+                <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>2019-2021 | Jamnagar, India</span>
                 <p className='font-medium w-full md:text-sm'>Pursued my higher secondary education in Science stream with Physics, Chemistry, and Mathematics as my core subjects.</p>
               </motion.div>
             </li>
@@ -42,7 +42,7 @@ const Experience = () => {
             <ListIcon reference={listRef2}/>
             <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>CSE Student&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
-              <span className='capitalise font-medium text-dark/75 xs:text-sm'>2021-2025 | Jaipur, India</span>
+              <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>2021-2025 | Jaipur, India</span>
               <p className='font-medium w-full md:text-sm'>
                 Currently pursuing my Bachelor's degree in Computer Science and Engineering.
                 I have taken courses like Data Structures, Algorithms, Operating Systems, and DBMS.
@@ -52,8 +52,8 @@ const Experience = () => {
           <li ref={listRef3} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
             <ListIcon reference={listRef3}/>
             <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
-              <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>Lab Teaching Assistant&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
-              <span className='capitalise font-medium text-dark/75 xs:text-sm'>January 2024 - May 2024 | Jaipur, India</span>
+              <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>DSA Lab Teaching Assistant&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
+              <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>January 2024 - May 2024 | Jaipur, India</span>
               <p className='font-medium w-full md:text-sm'>Assisted students in understanding and implementing the concepts of Data Structures and Algorithms. 
                 Topics included Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, etc.
               </p>
@@ -63,9 +63,18 @@ const Experience = () => {
             <ListIcon reference={listRef4}/>
             <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.2, type: 'spring'}}>
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>SWE Intern&nbsp;<a target='_blank' href="https://in.linkedin.com/company/volta-industries-llp" className='text-red-500 animate-pulse capitalize'>@Dimension Six</a></h3>
-              <span className='capitalise font-medium text-dark/75 sm:text-sm'>June 2024 - August 2024 | Mumbai, India</span>
+              <span className='capitalise font-medium text-dark/75 sm:text-sm dark:text-light/75'>June 2024 - August 2024 | Mumbai, India</span>
               <p className='font-medium w-full md:text-sm'>Developed responsive and interactive web applications using MERN.
                 Also tried out BaaS platforms like Firebase and appwrite.
+              </p>
+            </motion.div>
+          </li>
+          <li ref={listRef3} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
+            <ListIcon reference={listRef3}/>
+            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
+              <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>DAA Lab Teaching Assistant&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
+              <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>August 2024 - November 2024 | Jaipur, India</span>
+              <p className='font-medium w-full md:text-sm'>Assisted students in understanding and implementing the concepts of Design and Analysis of Algorithms. Topics included Sorting, Greedy Algorithms, Recusrion, Dynamic Programming, Graph Algorithms etc.
               </p>
             </motion.div>
           </li>

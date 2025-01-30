@@ -22,7 +22,7 @@ const Projects = () => {
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project3-EoT8fvl3.png" />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project2-DgNPu0kg.png" />
         <link rel="preload" as='image 'href="https://www.aryanshah.me/assets/project4-DBGne-9t.png" />
-        <link rel="canonical" href="https://www.aryanshah.me/projects" />
+        <link rel="canonical" href="https://www.aryanshah.me" />
 
         <meta property='og:title' content='Aryan Shah | Projects' />
         <meta property='og:description' content='This section displays the projects Aryan did' />

@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import { Helmet } from 'react-helmet-async';
 import TransitionEffect from '../components/TransitionEffect';
+import Certifications from '../components/Certifications';
 
 const AnimateNumber = ({ number }) => {
   const ref=useRef(null);
@@ -43,7 +44,7 @@ const About = () => {
         <meta name='description' content='This is the about section of portfolio that decribes the skills and experiences I have' />
         <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
         <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
-        <link rel="canonical" href="https://www.aryanshah.me/about" />
+        <link rel="canonical" href="https://www.aryanshah.me" />
 
         <meta property='og:title' content='Aryan Shah | About' />
         <meta property='og:description' content='This is the about section of portfolio that decribes the skills and experiences of Aryan' />
@@ -102,6 +103,8 @@ const About = () => {
           <Skills />
 
           <Experience />
+
+          <Certifications />
         </div>
       </main>
     </>

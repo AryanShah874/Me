@@ -62,7 +62,7 @@ const Contact = () => {
         <title>Aryan Shah | Contact</title>
         <meta name="description" content="Through this section you will be able to connect with me." />
         <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
-        <link rel="canonical" href="https://www.aryanshah.me/contact" />
+        <link rel="canonical" href="https://www.aryanshah.me" />
 
         <meta property="og:title" content="Aryan Shah | Contact" />
         <meta property="og:description" content="Through this section you will be able to connect with me." />
