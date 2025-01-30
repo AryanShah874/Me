@@ -1,8 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import profile from '../assets/images/profile.png'
-import profile4 from '../assets/images/profile4.jpg'
 import AnimatedText from '../components/AnimatedText'
-import ResumePDF from '../assets/Resume_offcampus.pdf'
+import ResumePDF from '../assets/resume_offcampus.pdf'
 import {Cube, LinkArrow} from '../components/Icons'
 // import HireMe from '../components/HireMe'
 const HireMe = lazy(() => import('../components/HireMe'))
