@@ -8,6 +8,7 @@ const Experience = () => {
   const listRef2=useRef(null);
   const listRef3=useRef(null);
   const listRef4=useRef(null);
+  const listRef5=useRef(null);
 
   const {scrollYProgress} = useScroll({target: ref, offset: ['start end', 'center start ']});
 
@@ -69,8 +70,8 @@ const Experience = () => {
               </p>
             </motion.div>
           </li>
-          <li ref={listRef3} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
-            <ListIcon reference={listRef3}/>
+          <li ref={listRef5} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
+            <ListIcon reference={listRef5}/>
             <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>DAA Lab Teaching Assistant&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
               <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>August 2024 - November 2024 | Jaipur, India</span>

@@ -12,6 +12,7 @@ import PageNotFound from './components/PageNotFound';
 function App() {
   return (
     <div className="bg-light dark:bg-dark w-full min-h-screen">
+      {/* <Cursor /> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

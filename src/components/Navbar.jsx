@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from './Logo'
-import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon } from './Icons';
+import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon, InstagramIcon } from './Icons';
 import { AnimatePresence, motion } from 'framer-motion';
 import useThemeSwitcher from '../hooks/useThemeSwitcher';
 
@@ -38,6 +38,7 @@ const Navbar = () => {
   return (
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8'>
 
+      {/* here lg is less than my 13 inch laptop- lg:1023px */}
       <button className='hidden lg:flex flex-col justify-center items-center' onClick={()=>setIsOpen(!isOpen)}>
         <span className={`bg-dark dark:bg-light transition-all duration-300 ease-in block h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
         <span className={`bg-dark dark:bg-light transition-all duration-300 ease-in block h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
@@ -45,14 +46,13 @@ const Navbar = () => {
       </button>
 
       <div className='w-full flex justify-between items-center lg:hidden'>
-        
+
         <nav>
           {/* <CustomLink to="/" title="Home" className="mr-4"/> */}
           <CustomLink to="/about" title="About" className="mr-4"/>
           <CustomLink to="/projects" title="Projects" className="mx-4"/>
           <CustomLink to="/contact" title="Contact" className="mx-4"/>
           <CustomLink to="/gallery" title="Gallery" className="ml-4"/>
-          
         </nav>
 
         {/* <Logo />  not centerd so will use absolute */}
@@ -60,7 +60,8 @@ const Navbar = () => {
         <nav className='flex items-center justify-center flex-wrap'>
           <motion.a whileHover={{y: -4}} href="https://github.com/AryanShah874" target='_blank' className='w-6 mr-3'><GithubIcon /></motion.a>
           <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/aryan-shah-10b52b252' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
-          <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 ml-3'><TwitterIcon /></motion.a>
+          <motion.a whileHover={{y: -4}} href="https://www.instagram.com/aryan16shah" target='_blank' className='w-6 mx-3'><InstagramIcon /></motion.a>
+          <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 ml-3'><TwitterIcon className={'rounded-md'} /></motion.a>
 
           <button onClick={()=>setMode(mode==='light' ? 'dark' : 'light')} className='ml-10 flex items-center justify-center rounded-full p-1'>
             {mode==='dark' ? <SunIcon className='fill-dark' /> : <MoonIcon className='fill-light' />}
@@ -87,7 +88,8 @@ const Navbar = () => {
             <nav className='flex items-center justify-center flex-wrap'>
               <motion.a whileHover={{y: -4}} href="https://github.com/AryanShah874" target='_blank' className='w-6 mr-3 sm:mx-1'><GithubIcon /></motion.a>
               <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/aryan-shah-10b52b252' target='_blank' className='w-6 mx-3 sm:mx-1'><LinkedInIcon /></motion.a>
-              <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 mx-3 sm:mx-1'><TwitterIcon /></motion.a>
+              <motion.a whileHover={{y: -4}} href="https://www.instagram.com/aryan16shah" target='_blank' className='w-6 mx-3 sm:mx-1'><InstagramIcon /></motion.a>
+              <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 mx-3 sm:mx-1'><TwitterIcon className={'rounded-md'} /></motion.a>
 
               <button onClick={()=>setMode(mode==='light' ? 'dark' : 'light')} className='ml-3 flex items-center justify-center rounded-full p-1'>
                 {mode==='dark' ? <SunIcon className='fill-dark' /> : <MoonIcon className='fill-light' />}

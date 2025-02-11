@@ -88,7 +88,7 @@ const Contact = () => {
               </button>
             </form>
 
-            <div className='h-full w-[40%] sm:w-full'>
+            <div className='h-full w-[40%] sm:hidden'>
               <Canvas camera={{position: [0, 0, 5], fov: 75, near: 0.1, far: 1000}}>
 
                 <directionalLight intensity={2.5} position={[0, 0, 1]} />

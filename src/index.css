@@ -4,6 +4,10 @@
 /*
 1. Use a more-intuitive box-sizing model.
 */
+/* Explain the below psudeo elements:  */
+/* The ::before selector inserts something before the content of each selected element(s). */
+/* The ::after selector inserts something after the content of each selected element(s). */
+/* The * selector selects all elements. */
 *, *::before, *::after {
   box-sizing: border-box;
   -webkit-user-select: none; /* Safari */

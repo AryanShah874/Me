@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
+// right-full -> means the right edge of the element is positioned at 100% of its parent/container (or the viewport, since it’s fixed).
+// w-screen -> w-screen ensures that the element is as wide as the entire viewport (100vw).
 const TransitionEffect = () => {
   return (
     <>
