@@ -76,7 +76,7 @@ const Contact = () => {
 
           <AnimatedText text="Get in Touch" className="lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
-          <div className='w-full h-[70vh] sm:h-full flex sm:flex-col items-center justify-between'>
+          <div className='w-full h-[70vh] sm:h-[65vh] flex sm:flex-col items-center justify-between'>
             <form ref={formRef} onSubmit={handleSubmit} className='w-[60%] sm:w-full h-full flex flex-col justify-center gap-4'>
               <input type="text" name='name' value={form.name} onChange={handleChange} onFocus={handleFocus} onBlur={handleBlur} placeholder='Name' required className='dark:bg-gray-600 py-2 px-3 rounded-lg focus:ring-2 focus:ring-dark dark:focus:ring-light' />
 
@@ -102,7 +102,6 @@ const Contact = () => {
               </Canvas> 
             </div>
           </div>
-
 
         </div>
       </main>
