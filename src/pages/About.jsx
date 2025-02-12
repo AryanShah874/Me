@@ -43,13 +43,14 @@ const About = () => {
         <title>Aryan Shah | About</title>
         <meta name='description' content='This is the about section of portfolio that decribes the skills and experiences I have' />
         <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
+        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BhL-sAHS.jpg" />
         <link rel="canonical" href="https://www.aryanshah.me" />
 
         <meta property='og:title' content='Aryan Shah | About' />
         <meta property='og:description' content='This is the about section of portfolio that decribes the skills and experiences of Aryan' />
         <meta property='og:url' content='https://www.aryanshah.me/about' />
-        <meta property='og:image' content="https://www.aryanshah.me/assets/profile4-BShXI7yr.jpg" />
+        <meta property='og:image' content="https://www.aryanshah.me/assets/profile4-BhL-sAHS.jpg" />
+        
       </Helmet>
 
       <TransitionEffect />
