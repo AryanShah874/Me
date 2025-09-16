@@ -1,5 +1,5 @@
 import { motion, useScroll } from 'framer-motion';
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import ListIcon from './ListIcon';
 
 const Experience = () => {
@@ -45,8 +45,8 @@ const Experience = () => {
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>CSE Student&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
               <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>2021-2025 | Jaipur, India</span>
               <p className='font-medium w-full md:text-sm'>
-                Currently pursuing my Bachelor's degree in Computer Science and Engineering.
-                I have taken courses like Data Structures, Algorithms, Operating Systems, and DBMS.
+                Completed my Bachelor&apos;s degree in Computer Science and Engineering.
+                I have learnt courses like Data Structures, Algorithms, Operating Systems, and DBMS.
               </p>
             </motion.div>
           </li>
@@ -76,6 +76,16 @@ const Experience = () => {
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>DAA Lab Teaching Assistant&nbsp;<a target='_blank' href="https://lnmiit.ac.in" className='text-red-500 animate-pulse capitalize'>@LNMIIT</a></h3>
               <span className='capitalise font-medium text-dark/75 xs:text-sm dark:text-light/75'>August 2024 - November 2024 | Jaipur, India</span>
               <p className='font-medium w-full md:text-sm'>Assisted students in understanding and implementing the concepts of Design and Analysis of Algorithms. Topics included Sorting, Greedy Algorithms, Recusrion, Dynamic Programming, Graph Algorithms etc.
+              </p>
+            </motion.div>
+          </li>
+           <li ref={listRef4} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
+            <ListIcon reference={listRef4}/>
+            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.2, type: 'spring'}}>
+              <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>SDE Intern&nbsp;<a target='_blank' href="https://www.e2enetworks.com" className='text-red-500 animate-pulse capitalize'>@E2E Cloud</a></h3>
+              <span className='capitalise font-medium text-dark/75 sm:text-sm dark:text-light/75'>May 2025 - Present | Delhi, India</span>
+              <p className='font-medium w-full md:text-sm'>
+                Working on developing scalable web applications and cloud solutions using modern technologies.
               </p>
             </motion.div>
           </li>
