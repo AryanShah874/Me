@@ -15,19 +15,42 @@ const Projects = () => {
     <>
       <Helmet>
         <title>Aryan Shah | Projects</title>
-        <meta name="description" content="This section displays the projects I did" />
-        <meta name="keywords" content="Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project0-B6KuZh9b.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project1-ThQVOg8s.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project3-EoT8fvl3.png" />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/project2-DgNPu0kg.png" />
-        <link rel="preload" as='image 'href="https://www.aryanshah.me/assets/project4-DBGne-9t.png" />
-        <link rel="canonical" href="https://www.aryanshah.me" />
+        <meta name='description' content="Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless."/>
+        <meta name='keywords' content='Aryan Shah, Aryan, Full Stack Developer, Software Engineer, SDE Intern, E2E Networks, LNMIIT Jaipur, Computer Science Engineer, Web Developer, React Developer, Node.js Developer, MERN Stack, JavaScript, TypeScript, Express.js, MongoDB, Frontend Developer, Backend Developer, Web Applications, Mobile Applications, Responsive Design, UI/UX, API Development, Software Development, Cloud Computing, DevOps, Git, GitHub, REST APIs, Docker, HTML, CSS, React, Firebase, Appwrite, India, Delhi, Mumbai, Jaipur, Jamnagar, Tech Enthusiast, Portfolio, Software Projects, Coding, Web Design' />
+        <link rel="preload" as='image' href="https://aryan-shah.vercel.app/assets/project0-B6KuZh9b.png" />
+        <link rel="preload" as='image' href="https://aryan-shah.vercel.app/assets/project1-ThQVOg8s.png" />
+        <link rel="preload" as='image' href="https://aryan-shah.vercel.app/assets/project3-EoT8fvl3.png" />
+        <link rel="preload" as='image' href="https://aryan-shah.vercel.app/assets/project2-DgNPu0kg.png" />
+        <link rel="preload" as='image 'href="https://aryan-shah.vercel.app/assets/project4-DBGne-9t.png" />
+        <link rel="canonical" href="https://aryan-shah.vercel.app" />
 
         <meta property='og:title' content='Aryan Shah | Projects' />
         <meta property='og:description' content='This section displays the projects Aryan did' />
-        <meta property='og:url' content='https://www.aryanshah.me/projects' />
-        <meta property='og:image' content="https://www.aryanshah.me/assets/project0-B6KuZh9b.png" />
+        <meta property='og:url' content='https://aryan-shah.vercel.app/projects' />
+        <meta property='og:image' content="https://aryan-shah.vercel.app/assets/project0-B6KuZh9b.png" />
+        <meta property='og:type' content='website' />
+
+         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Aryan Shah",
+          "url": "https://aryan-shah.vercel.app",
+          "sameAs": [
+            "https://www.linkedin.com/in/aryan-shah-10b52b252",
+            "https://github.com/AryanShah874"
+          ],
+          "description": "Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless.",
+          "image": "https://aryan-shah.vercel.app/profile.jpg",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "LNMIIT"
+          },
+          "jobTitle": "SDE Intern",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "E2E Networks"
+          }
+        }` }} />
       </Helmet>
 
       <TransitionEffect />

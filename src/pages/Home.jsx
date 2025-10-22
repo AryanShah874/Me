@@ -20,29 +20,38 @@ const Home = () => {
     <>
       <Helmet>
         <title>Aryan Shah</title>
-        <meta name='description' content="Welcome to Aryan's Portfolio, He is a undergraduate pursuing B.Tech in CSE from LNMIIT. He likes to develop projects and travelling."/>
-        <meta name='keywords' content='Aryan Shah, Full stack developer, MERN Developer, Web Developer, Backend Developer, Frontend Developer, React, JavaScript, Portfolio, Jamnagar, LNMIIT, Jaipur, CSE, Node, Aryan Shah LNMIIT' />
-        <link rel="preload" as='image' href="https://www.aryanshah.me/assets/profile4-BhL-sAHS.jpg" />
-        <link rel="canonical" href="https://www.aryanshah.me" />
-
+        <meta name='description' content="Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless."/>
+        <meta name='keywords' content='Aryan Shah, Aryan, Full Stack Developer, Software Engineer, SDE Intern, E2E Networks, LNMIIT Jaipur, Computer Science Engineer, Web Developer, React Developer, Node.js Developer, MERN Stack, JavaScript, TypeScript, Express.js, MongoDB, Frontend Developer, Backend Developer, Web Applications, Mobile Applications, Responsive Design, UI/UX, API Development, Software Development, Cloud Computing, DevOps, Git, GitHub, REST APIs, Docker, HTML, CSS, React, Firebase, Appwrite, India, Delhi, Mumbai, Jaipur, Jamnagar, Tech Enthusiast, Portfolio, Software Projects, Coding, Web Design' />
+        <link rel="preload" as='image' href="https://aryan-shah.vercel.app/profile.jpg" />
+        <link rel="canonical" href="https://aryan-shah.vercel.app" />
 
         {/* open graph tags */}
         <meta property='og:title' content='Aryan Shah | Full Stack Developer' />
-        <meta property='og:description' content='Welcome to my portfolio where you can find what I do and get connected.' />
-        <meta property='og:image' content="https://www.aryanshah.me/assets/profile4-BhL-sAHS.jpg" />
-        <meta property='og:url' content='https://www.aryanshah.me' />
+        <meta property='og:description' content='Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless.' />
+        <meta property='og:image' content="https://aryan-shah.vercel.app/profile.jpg" />
+        <meta property='og:url' content='https://aryan-shah.vercel.app' />
         <meta property='og:type' content='website' />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Aryan Shah",
-          "url": "https://www.aryanshah.me/",
+          "url": "https://aryan-shah.vercel.app",
           "sameAs": [
             "https://www.linkedin.com/in/aryan-shah-10b52b252",
             "https://github.com/AryanShah874"
           ],
-          "description": "Aryan Shah is a passionate Full Stack Developer specializing in building and designing websites, web applications, and mobile applications."
+          "description": "Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless.",
+          "image": "https://aryan-shah.vercel.app/profile.jpg",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "LNMIIT"
+          },
+          "jobTitle": "SDE Intern",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "E2E Networks"
+          }
         }` }} />
       </Helmet>
 
@@ -59,7 +68,7 @@ const Home = () => {
               <AnimatedText text='From Concept  to Code, Watch Ideas Explode' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:text-6xl md:text-5xl sm:text-3xl' />
 
               <p className='my-4 text-base pb-2 font-medium md:text-sm sm:text-xs'>
-                I'm a Aryan, a passionate Full Stack Developer based out of India, currently pursuing B.Tech in CSE from LNMIIT, Jaipur. I specialize in building and designing websites, web applications, and mobile applications. I am passionate about creating intuitive, dynamic, and responsive user interfaces that provide a seamless user experience.
+                Hi, I’m Aryan — a Full Stack Developer from India. I recently completed my B.Tech in Computer Science and Engineering from LNMIIT, Jaipur, and I’m currently working as an SDE Intern at E2E Networks. I love building websites and web applications that combine clean design with great performance. My focus lies in creating dynamic, responsive, and user-friendly interfaces that make technology feel effortless.
               </p>
 
               <div className='flex items-center justify-center self-start lg:self-center'>

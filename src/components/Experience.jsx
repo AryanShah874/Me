@@ -9,7 +9,8 @@ const Experience = () => {
   const listRef3=useRef(null);
   const listRef4=useRef(null);
   const listRef5=useRef(null);
-
+  const listRef6=useRef(null);
+  
   const {scrollYProgress} = useScroll({target: ref, offset: ['start end', 'center start ']});
 
   return (
@@ -62,7 +63,7 @@ const Experience = () => {
           </li>
           <li ref={listRef4} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
             <ListIcon reference={listRef4}/>
-            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.2, type: 'spring'}}>
+            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>SWE Intern&nbsp;<a target='_blank' href="https://in.linkedin.com/company/volta-industries-llp" className='text-red-500 animate-pulse capitalize'>@Dimension Six</a></h3>
               <span className='capitalise font-medium text-dark/75 sm:text-sm dark:text-light/75'>June 2024 - August 2024 | Mumbai, India</span>
               <p className='font-medium w-full md:text-sm'>Developed responsive and interactive web applications using MERN.
@@ -79,9 +80,9 @@ const Experience = () => {
               </p>
             </motion.div>
           </li>
-           <li ref={listRef4} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
-            <ListIcon reference={listRef4}/>
-            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.2, type: 'spring'}}>
+           <li ref={listRef6} className='my-8 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
+            <ListIcon reference={listRef6}/>
+            <motion.div initial={{y: 50}} whileInView={{y: 0}} transition={{duration: 0.5, type: 'spring'}}>
               <h3 className='capitalise font-bold text-2xl sm:text-xl xs:text-lg'>SDE Intern&nbsp;<a target='_blank' href="https://www.e2enetworks.com" className='text-red-500 animate-pulse capitalize'>@E2E Cloud</a></h3>
               <span className='capitalise font-medium text-dark/75 sm:text-sm dark:text-light/75'>May 2025 - Present | Delhi, India</span>
               <p className='font-medium w-full md:text-sm'>
