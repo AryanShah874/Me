@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.aryanshah.me/sitemap.xml
+Sitemap: https://aryan-shah.vercel.app/sitemap.xml
