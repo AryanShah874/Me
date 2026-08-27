@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from 'react'
-import {motion, useInView} from 'framer-motion'
+import { useRef } from 'react'
+import { motion } from 'framer-motion'
 
 const Skill=({name, x, y})=>{
   const ref=useRef(null);
-  // const isInView=useInView(ref, {once: true});
 
   return(
     <motion.div ref={ref} whileHover={{scale: 1.1}} initial={{x: 0, y: 0}} whileInView={{x:x, y:y, transition: {duration: 1.5}}} viewport={{once: true}} className='flex justify-center items-center bg-dark text-light dark:bg-light dark:text-dark py-3 px-6 lg:py-2 lg:px-4 md:py-1.5 md:px-3 md:text-sm xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold rounded-full absolute cursor-pointer'>
@@ -27,16 +26,19 @@ const Skills = () => {
         <Skill name='Tailwind' x='-25vw' y='-16vw'/>
         {/* <Skill name='Chakra UI' x='0' y='-15vw'/> */}
         {/* <Skill name='Styled Components' x='0' y='-25vw'/> */}
-        <Skill name='Framer Motion' x='-20vw' y='18vw'/> 
+        <Skill name='Framer Motion' x='-20vw' y='18vw'/>
         {/* <Skill name='ThreeJS' x='0' y='-45vw'/> */}
         <Skill name='ReactJS' x='2vw' y='18vw'/>
         <Skill name='NodeJS' x='-20vw' y='8vw'/>
         <Skill name='Express' x='-31vw' y='0'/>
         <Skill name='MongoDB' x='-19vw' y='-8vw'/>
         <Skill name='SQL' x='0' y='-18vw'/>
-        <Skill name='Git' x='18vw' y='-18vw'/> 
+        <Skill name='Git' x='18vw' y='-18vw'/>
         <Skill name='Firebase' x='30vw' y='1vw'/>
         <Skill name='Appwrite' x='1vw' y='7vw'/>
+        <Skill name='Docker' x='28vw' y='16vw'/>
+        <Skill name='Kubernetes' x='-14vw' y='-19vw'/>
+        <Skill name='TypeScript' x='32vw' y='-10vw'/>
       </div>
     </>
   )

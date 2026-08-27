@@ -1,10 +1,9 @@
-import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 const ListIcon = ({reference}) => {
   const {scrollYProgress}=useScroll({target: reference, offset: ['center end', 'center center'], layoutEffect: false});
 
-  const fillColor=useTransform(scrollYProgress, [0, 1], ['rgba(255, 255, 255, 1)', 'rgba(255, 0, 0, 1)']);
+  const fillColor=useTransform(scrollYProgress, [0, 1], ['rgba(255, 255, 255, 1)', 'rgba(254, 90, 16, 1)']);
 
   return (
     <figure className='absolute left-0 stroke-dark dark:stroke-light'>

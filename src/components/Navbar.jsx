@@ -59,9 +59,9 @@ const Navbar = () => {
 
         <nav className='flex items-center justify-center flex-wrap'>
           <motion.a whileHover={{y: -4}} href="https://github.com/AryanShah874" target='_blank' className='w-7 mr-3'><GithubIcon /></motion.a>
-          <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/aryan-shah-10b52b252' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
-          <motion.a whileHover={{y: -4}} href="https://www.instagram.com/aryan16shah" target='_blank' className='w-6 mx-3'><InstagramIcon /></motion.a>
-          <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 ml-3'><TwitterIcon className={'rounded-md'} /></motion.a>
+          <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/4ryanshah/' target='_blank' className='w-6 mx-3'><LinkedInIcon /></motion.a>
+          <motion.a whileHover={{y: -4}} href="https://www.instagram.com/4ryan_shah" target='_blank' className='w-6 mx-3'><InstagramIcon /></motion.a>
+          <motion.a whileHover={{y: -4}} href="https://x.com/4ryanshah" target='_blank' className='w-6 ml-3'><TwitterIcon className={'rounded-md'} /></motion.a>
 
           <button onClick={()=>setMode(mode==='light' ? 'dark' : 'light')} className='ml-10 flex items-center justify-center rounded-full p-1'>
             {mode==='dark' ? <SunIcon className='fill-dark' /> : <MoonIcon className='fill-light' />}
@@ -87,9 +87,9 @@ const Navbar = () => {
 
             <nav className='flex items-center justify-center flex-wrap'>
               <motion.a whileHover={{y: -4}} href="https://github.com/AryanShah874" target='_blank' className='w-6 mr-3 sm:mx-1'><GithubIcon /></motion.a>
-              <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/aryan-shah-10b52b252' target='_blank' className='w-6 mx-3 sm:mx-1'><LinkedInIcon /></motion.a>
-              <motion.a whileHover={{y: -4}} href="https://www.instagram.com/aryan16shah" target='_blank' className='w-6 mx-3 sm:mx-1'><InstagramIcon /></motion.a>
-              <motion.a whileHover={{y: -4}} href="https://x.com/A_Ryan_Shah" target='_blank' className='w-6 mx-3 sm:mx-1'><TwitterIcon className={'rounded-md'} /></motion.a>
+              <motion.a whileHover={{y: -4}} href='https://www.linkedin.com/in/4ryanshah/' target='_blank' className='w-6 mx-3 sm:mx-1'><LinkedInIcon /></motion.a>
+              <motion.a whileHover={{y: -4}} href="https://www.instagram.com/4ryan_shah" target='_blank' className='w-6 mx-3 sm:mx-1'><InstagramIcon /></motion.a>
+              <motion.a whileHover={{y: -4}} href="https://x.com/4ryanshah" target='_blank' className='w-6 mx-3 sm:mx-1'><TwitterIcon className={'rounded-md'} /></motion.a>
 
               <button onClick={()=>setMode(mode==='light' ? 'dark' : 'light')} className='ml-3 flex items-center justify-center rounded-full p-1'>
                 {mode==='dark' ? <SunIcon className='fill-dark' /> : <MoonIcon className='fill-light' />}

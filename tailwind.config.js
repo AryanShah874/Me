@@ -10,22 +10,21 @@ export default {
       colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
-        primary: "#B63E96", // 240,86,199
-        primaryDark: "#58E6D9", // 80,230,217
+        saiyan: "#FE5A10", // Goku's gi orange
+        kamehameha: "#0F94CD", // energy-blast blue
       },
       animation: {
         'spin-slow': 'spin 5s linear infinite',
       },
       backgroundImage: {
-        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 80px)',  
-        circularDark: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 80px)',
-        circularLightLg: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 70px)',
-        circularDarkLg: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 70px)',
-        circularLightMd: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 60px)',
-        circularDarkMd: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 60px)',
-        circularLightSm: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 50px)',
-        circularDarkSm: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 50px)',
-        projectBG: 'url(../src/assets/images/productBg.png)',
+        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, transparent 5px, transparent 80px)',
+        circularDark: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, transparent 5px, transparent 80px)',
+        circularLightLg: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, transparent 5px, transparent 70px)',
+        circularDarkLg: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, transparent 5px, transparent 70px)',
+        circularLightMd: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, transparent 5px, transparent 60px)',
+        circularDarkMd: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, transparent 5px, transparent 60px)',
+        circularLightSm: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, transparent 5px, transparent 50px)',
+        circularDarkSm: 'repeating-radial-gradient(rgba(255,255,255,0.4) 2px, transparent 5px, transparent 50px)',
       }
     },
     screens: {

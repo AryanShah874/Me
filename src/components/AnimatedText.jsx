@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion';
 
 // The parent <motion.h1> does not animate itself.

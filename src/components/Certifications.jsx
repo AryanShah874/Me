@@ -1,4 +1,3 @@
-import React from 'react'
 import mongodb from '../assets/images/mongodb.png'
 import github from '../assets/images/github.png'
 import postman from '../assets/images/postman.png'
@@ -26,7 +25,7 @@ const Certifications = () => {
           <MotionLink whileHover={{scale: 1.2}} to='https://www.credly.com/badges/630a804c-4fb6-4bc6-86be-552614d370f3/linked_in_profile' target='_blank'>
             <img src={github} alt="github-badge" className='h-40 w-full object-contain' />
           </MotionLink>
-          <MotionLink whileHover={{scale: 1.2}} to='https://api.badgr.io/public/assertions/fVaPj58FRASVZJbArkc-NA' target='_blank'>
+          <MotionLink whileHover={{scale: 1.2}} to='https://badges.parchment.com/public/assertions/fVaPj58FRASVZJbArkc-NA' target='_blank'>
             <img src={postman} alt="postman-badge" className='h-40 w-full object-contain'/>
           </MotionLink>
           <MotionLink whileHover={{scale: 1.2}} to='https://www.coursera.org/account/accomplishments/records/XXENGQZ54P8Q' target='_blank'>

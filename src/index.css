@@ -58,3 +58,14 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*
+  Light mode's answer to the dark-mode starfield — soft color blobs in the
+  corners on a clean base, instead of a flat gradient or scattered dots.
+*/
+.sky-mesh {
+  background-color: #f5f5f5;
+  background-image:
+    radial-gradient(at 12% 15%, rgba(15, 148, 205, 0.30) 0px, transparent 55%),
+    radial-gradient(at 88% 85%, rgba(254, 90, 16, 0.26) 0px, transparent 55%);
+}

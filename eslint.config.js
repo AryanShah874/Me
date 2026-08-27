@@ -29,10 +29,22 @@ export default [
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
       'react/jsx-no-target-blank': 'off',
+      // No TypeScript and no external consumers of these components — prop-types
+      // would be pure boilerplate here.
+      'react/prop-types': 'off',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
+    },
+  },
+  {
+    // react-three-fiber renders Three.js objects as lowercase JSX intrinsics
+    // (mesh, primitive, ...) with props like `position`/`geometry`/`skeleton`
+    // that aren't real DOM attributes — this plugin doesn't know about them.
+    files: ['src/models/**/*.jsx', 'src/pages/Contact.jsx'],
+    rules: {
+      'react/no-unknown-property': 'off',
     },
   },
 ]
